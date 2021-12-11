@@ -17,7 +17,7 @@ function setup() {
   player_explosion_sound.setVolume(sfx_vol);
   player_bomb_sound.setVolume(sfx_vol);
   player_thrust_sound.setVolume(sfx_vol);
-  player_laser_sound.setVolume(sfx_vol-0.65);
+  player_laser_sound.setVolume(sfx_vol-1.00);
   level_completed_sound.setVolume(sfx_vol);
   game_start_sound.setVolume(sfx_vol-0.50);
   human_rescued_sound.setVolume(sfx_vol);
