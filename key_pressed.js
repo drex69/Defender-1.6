@@ -5,7 +5,7 @@ function keyPressed(){
   if (game_state == -1)
   {
     //if(keyCode == (RETURN))//'s') //Also works
-    if(key == 's' || touches.length == 1)
+    if(key == 's')
     {
       //start_screen.stop = frameCount + 250;
       start_screen = new start_screen_class();
