@@ -31,11 +31,6 @@ class insert_coin_screen_class
     textSize(55/ws);
     center_text(this.text2);
     text(this.text2,text_x,450/ws);
-    
-    if(touches.length == 1)
-    {
-      game_state = 0;
-    }
 
   }
 
