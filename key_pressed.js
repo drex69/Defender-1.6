@@ -2,7 +2,7 @@ function keyPressed(){
 
   //KEYS FOR INSERT COIN SCREEN//////////////////////////////////////////////////////
 
-  if (game_state == -1)
+  if (game_state == -1 || touches.length == 1)
   {
     //if(keyCode == (RETURN))//'s') //Also works
     if(key == 's')
