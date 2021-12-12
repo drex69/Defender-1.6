@@ -38,6 +38,7 @@ class insert_coin_screen_class
       start_screen = new start_screen_class();
       game_state = 0;
       menu_screen_sound.play();
+      touches.length = 0;
     }
 
   }
