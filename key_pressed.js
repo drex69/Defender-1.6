@@ -2,10 +2,10 @@ function keyPressed(){
 
   //KEYS FOR INSERT COIN SCREEN//////////////////////////////////////////////////////
 
-  if (game_state == -1 || touches.length == 1)
+  if (game_state == -1)
   {
     //if(keyCode == (RETURN))//'s') //Also works
-    if(key == 's')
+    if(key == 's'  || touches.length == 1)
     {
       //start_screen.stop = frameCount + 250;
       start_screen = new start_screen_class();
