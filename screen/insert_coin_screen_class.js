@@ -31,6 +31,14 @@ class insert_coin_screen_class
     textSize(55/ws);
     center_text(this.text2);
     text(this.text2,text_x,450/ws);
+    
+     if(touches.length > 0)
+    {
+      //start_screen.stop = frameCount + 250;
+      start_screen = new start_screen_class();
+      game_state = 0;
+      menu_screen_sound.play();
+    }
 
   }
 
